@@ -1,0 +1,152 @@
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  flex-direction: column;
+  margin-top: 15px;
+  gap: 30px;
+  align-items: center;
+}
+
+button {
+  font-size: 20px;
+}
+
+h1 {
+  box-shadow: 0 0 25px 0 aqua;
+  text-align: center;
+  background-color: aqua;
+  padding: 30px;
+  color: rgba(0, 0, 0, 0.527);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover,
+.btn5:hover,
+.btn6:hover,
+.btn7:hover,
+.btn8:hover,
+.btn9:hover {
+  box-shadow: 0 0 15px 0 teal;
+  transition-duration: 0.2s;
+}
+
+.teng:hover {
+  box-shadow: 0 0 15px 0 rgba(0, 207, 93, 0.712);
+  transition-duration: 0.2s;
+
+}
+
+.teng {
+  background-color: rgba(0, 207, 93, 0.712);
+  padding: 40px;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  width: 50px;
+}
+
+.box789 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.btn6,
+.btn7,
+.btn8,
+.btn9 {
+  padding: 40px;
+  background-color: teal;
+  border: none;
+  border-radius: 2px;
+
+  display: inline-block;
+  width: 50px;
+}
+
+.box456 {
+  margin-top: 15px;
+}
+
+.btn-plus:hover {
+  transition-duration: 0.2s;
+  box-shadow: 0 0 15px 0 brown;
+}
+
+.btn-plus {
+  padding: 40px;
+  background-color: teal;
+  border: none;
+  border-radius: 2px;
+
+  display: inline-block;
+  width: 50px;
+  height: 220px;
+  background-color: brown;
+  margin-left: -80px;
+}
+
+.box-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.box5 {
+  display: flex;
+  justify-content: center;
+  margin-right: -94px;
+}
+
+.btn-:hover,
+.btn-m:hover,
+.btnx:hover {
+  box-shadow: 0 0 15px 0 crimson;
+  transition-duration: 0.2s;
+}
+
+.btn-,
+.btn-m,
+.btnx {
+  padding: 30px;
+  border: none;
+  border-radius: 2px;
+
+  display: inline-block;
+  width: 127px;
+  height: 80px;
+  background-color: crimson;
+  margin-left: 15px;
+}
+
+.clear {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+}
+
+.clear:hover {
+  transition-duration: 0.3s;
+  box-shadow: 0 0 55px 2px black;
+}
