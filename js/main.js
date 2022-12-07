@@ -1,8 +1,10 @@
+
+
 let all = ''
 
-let plus = document.querySelector(".btn-plus")
+let plus = document.querySelector(".btn-plus")        
 plus.addEventListener("click", function (x) {
-  if (all[all.length - 1] == '+' && '/' && '-' && '*') {
+  if (all[all.length - 1] == '+' || '/' || '-' || '*') {
     document.getElementById("p1").innerHTML = '2 ta ishora yozmang!!!';
   }
   else {
@@ -86,7 +88,7 @@ teng.addEventListener("click", function (x) {
 let boluv = document.querySelector(".btn-m")
 
 boluv.addEventListener("click", function (x) {
-  if (all[all.length - 1] == '/' && '+' && '-' && '*') {
+  if (all[all.length - 1] == '/' || '+' || '-' || '*') {
     document.getElementById("p1").innerHTML = '2 ta ishora yozmang!!!';
   }
   else {
@@ -103,7 +105,7 @@ boluv.addEventListener("click", function (x) {
 let x = document.querySelector(".btnx")
 
 x.addEventListener("click", function (x) {
-  if (all[all.length - 1] == '*' && '+' && '-' && '/') {
+  if (all[all.length - 1] == '*' || '+' || '-' || '/') {
     document.getElementById("p1").innerHTML = '2 ta ishora yozmang!!!';
   }
   else {
@@ -120,7 +122,7 @@ x.addEventListener("click", function (x) {
 let minus = document.querySelector(".btn-")
 
 minus.addEventListener("click", function (x) {
-  if (all[all.length - 1] == '-' && '/' && '+' && '*') {
+  if (all[all.length - 1] == '-' || '/' || '+' || '*') {
     document.getElementById("p1").innerHTML = '2 ta ishora yozmang!!!';
   }
   else {
