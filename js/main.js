@@ -139,7 +139,7 @@ minus.addEventListener("click", function (x) {
 let clear = document.querySelector(".clear")
 
 clear.addEventListener("click", function (x) {
-  all = 'calc Prepared by:odilbek '
-  document.getElementById("p1").innerHTML = all;
+  all = ''
+  document.getElementById("p1").innerHTML = 'calc Prepared by:odilbek';
 })
 
